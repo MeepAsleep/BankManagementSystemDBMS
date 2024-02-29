@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ainfo">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="false">
+         <image>
+            <Image url="@../files/abstract-textured-backgound.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="226.0" layoutX="545.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../files/logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="46.0" layoutY="33.0" mnemonicParsing="false" onAction="#go_back" prefHeight="53.0" prefWidth="86.0" style="-fx-background-color: gold;" text="←">
+         <font>
+            <Font name="Felix Titling" size="27.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER_RIGHT" layoutX="50.0" layoutY="177.0" prefHeight="39.0" prefWidth="343.0" text="enter account number">
+         <font>
+            <Font name="Felix Titling" size="25.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.9620853080568721" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.843137264251709" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="acnum" layoutX="413.0" layoutY="182.0" prefHeight="29.0" prefWidth="211.0" />
+      <Label layoutX="89.0" layoutY="111.0" text="account info">
+         <font>
+            <Font name="Felix Titling" size="39.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.9194312796208531" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.843137264251709" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="641.0" layoutY="174.0" mnemonicParsing="false" onAction="#view" prefHeight="39.0" prefWidth="86.0" style="-fx-background-color: gold;" text="go">
+         <font>
+            <Font name="Felix Titling" size="22.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="200.0" layoutY="267.0" text="User id">
+         <font>
+            <Font name="Felix Titling" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.957345971563981" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.843137264251709" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="uid" layoutX="138.0" layoutY="313.0" prefHeight="39.0" prefWidth="219.0" />
+      <Label alignment="CENTER" layoutX="510.0" layoutY="267.0" prefHeight="30.0" prefWidth="86.0" text="name">
+         <font>
+            <Font name="Felix Titling" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.957345971563981" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.843137264251709" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="name" layoutX="443.0" layoutY="313.0" prefHeight="39.0" prefWidth="219.0" />
+      <Label alignment="CENTER" layoutX="206.0" layoutY="366.0" text="Phone">
+         <font>
+            <Font name="Felix Titling" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.957345971563981" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.843137264251709" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="phno" layoutX="138.0" layoutY="412.0" prefHeight="39.0" prefWidth="219.0" />
+      <Label alignment="CENTER" layoutX="515.0" layoutY="366.0" text="e-mail">
+         <font>
+            <Font name="Felix Titling" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.957345971563981" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.843137264251709" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="mail" layoutX="443.0" layoutY="412.0" prefHeight="39.0" prefWidth="219.0" />
+      <Label alignment="CENTER" layoutX="157.0" layoutY="469.0" text="date of birth">
+         <font>
+            <Font name="Felix Titling" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.957345971563981" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.843137264251709" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="dob" layoutX="138.0" layoutY="515.0" prefHeight="39.0" prefWidth="219.0" />
+      <Label alignment="CENTER" layoutX="498.0" layoutY="469.0" text="Balance">
+         <font>
+            <Font name="Felix Titling" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.957345971563981" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.843137264251709" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="bal" layoutX="443.0" layoutY="515.0" prefHeight="39.0" prefWidth="219.0" />
+      <Label fx:id="lab" alignment="CENTER" layoutX="179.0" layoutY="222.0" prefHeight="30.0" prefWidth="442.0" textFill="RED">
+         <font>
+            <Font name="Felix Titling" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
